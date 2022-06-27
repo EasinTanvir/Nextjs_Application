@@ -1,0 +1,48 @@
+.main {
+    background-color: antiquewhite;
+    height: 100vh;
+    overflow: hidden;
+}
+.main h2 {
+    text-align: center;
+}
+
+.profile{
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    margin: 20px auto;   
+    padding: 10px; 
+    border-radius: 5px;
+    box-shadow: 7px 6px 9px black;
+   
+}
+
+.profile h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace
+}
+
+.profile input{
+    display: block;
+    width: 100%;
+    padding: 6px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+}
+
+.profile label{
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.passwords {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

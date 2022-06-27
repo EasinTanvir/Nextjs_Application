@@ -1,0 +1,95 @@
+.main{
+    overflow: hidden;
+    height: 100vh;
+    background-color: gray;
+}
+
+.form{
+    width: 400px;
+    height: 400px;   
+    margin: 50px auto;
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px black;
+    position: relative;
+    color: white;
+
+}
+
+.form h1{
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 7px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+.form label{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    color: white;
+    margin-top: 4px;
+    
+
+}
+
+.btn1{
+    margin-top: 10px;
+}
+
+.btn1 button{
+    width: 100px;
+    background-color: black;
+    color: bisque;
+    padding: 5px 6px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.btn1 button:hover{
+    color: gray;
+    
+}
+
+.btn2 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 20px;
+    margin: auto;
+  
+}
+
+
+.btn2 button{
+    margin: auto;
+    display: block;
+    width: 150px;
+    background-color: skyblue;
+    color: black;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+   
+}
+
+.text button {
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    width: 150px;
+    padding: 7px 10px;
+}
+
